@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0; border: none; box-sizing: border-box; border-collapse: collapse; font-family: 'Malgun Gothic'}
+	table{width:100%;}
+
+	.wrap{width:1200px; margin: 0 auto;}
+
+	a{text-decoration: none;}
+	a:hover{text-decoration: none;}
+
+	.red{color: #f00;}
+	.cur{cursor: pointer;}
+	.ble{color: #1287EB}
+	.al{text-align: left;}
+	.hit{color:#f00; background: #ff0;}
+
+		header{height: 60px; border-bottom: solid 1px #000;}
+		header .wrap{display: flex; justify-content: space-between; line-height: 60px;}
+		header span{margin-left: 30px; display: inline-block; cursor: pointer; color: #007bff;}
+		#logo{font-size: 30px;}
+
+	#menu_box{position: relative; margin-bottom: 60px;}
+	#menu{margin-top: 10px; position: absolute; left: 0; top: 0;}
+	ul,li{list-style: none; width: 100px; float: left; text-align: center; padding:3px 0; cursor: pointer;}
+	ul{font-size: 16px; border:solid 1px #ccc; background: #fff;}
+	li{font-size: 14px; display: none;}
+	ul:hover > li{display: block;}
+
+	ul a{color: #333;}
+
+	td,th{border:solid 1px #666; padding: 5px; text-align: center;}
+
+	td input[type=text],td input[type=password],td input[type=file],td textarea{width:100%; padding:5px 8px; border:solid 1px #666;}
+	form td{text-align: left;}
+	form td:first-child{text-align: center;}
+
+	.title_area{display: flex; justify-content: space-between; margin-bottom: 30px;}
+	select {padding: 5px; width:100%; border: solid 1px #333;}
+
+	#htm{position:relative; width:1200px; min-height: 700px; border:solid 1px #000; margin: 30px 0; overflow: hidden;}
+	.box_div{border: solid 1px #f00; position: absolute; text-align: justify; line-height: 1.6; overflow: hidden;}
+	.box_div img{width: 100%; height: 100%;}
+	.bg_div{background: rgba(0,0,255,.3); position: absolute; width:100%; height: 100%;  display: none;}
+
+
+/* 여기서 부터 추가 */
+	.mat30{margin-top: 30px;}
+	.mat60{margin-top: 60px;}
+	body{margin-bottom: 50px;}
+	.br_list{display: flex; flex-wrap: wrap;}
+	.br_list img{width:100%; height: 160px;}
+	.br_list > div{width:18%; text-align: center; cursor: pointer; border: solid 1px #ccc; background: #efefef; margin:0 10px 20px 10px;}
+	.br_list > div > p{font-size: 14px; margin: 3px 0;}
